@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+}
+
+aside {
+    background-color: #37474f; 
+}
+
+footer {
+    background-color: #1b5e20;
+    border-top: 5px solid #a5d6a7;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border-top: 3px solid #2e7d32 !important;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.nav-link:hover {
+    color: #a5d6a7 !important;
+}
+
+/* Ajustes de espaciado */
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
