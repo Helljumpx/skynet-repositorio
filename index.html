@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinergia Inventory - Gestión Profesional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container shadow-lg bg-light p-0">
+        <header class="row g-0">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100 p-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2 fw-bold" href="#">Sinergia <span class="fw-light">Inventory</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Reportes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Configuración</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="row g-0 mt-4 px-4 align-items-stretch">
+            <main class="col-12 col-md-8 p-4 bg-white border-start border-4 border-success rounded-start">
+                <h2 class="text-success">Panel de Control de Stock</h2>
+                <p class="lead text-muted">Optimiza tu cadena de suministro con inteligencia de datos.</p>
+                <hr>
+                <p>Nuestra plataforma permite a las empresas de tecnología y retail tener un control absoluto sobre sus activos en tiempo real. Con <strong>Sinergia Inventory</strong>, puedes automatizar alertas de bajo stock, gestionar múltiples almacenes y generar hojas de auditoría en segundos. Diseñado para ser intuitivo, rápido y altamente escalable.</p>
+                <button class="btn btn-success mt-3">Generar Reporte Mensual</button>
+            </main>
+
+            <aside class="col-12 col-md-4 p-4 text-white rounded-end d-flex flex-column justify-content-center">
+                <h3 class="h5 fw-bold">Alertas del Sistema</h3>
+                <div class="alert alert-warning py-2 small">⚠️ 5 productos con stock crítico.</div>
+                <div class="alert alert-info py-2 small">ℹ️ Nueva actualización de software v2.4.</div>
+                <hr>
+                <p class="small fst-italic">"La eficiencia no es una opción, es una ventaja competitiva."</p>
+            </aside>
+        </section>
+
+        <section class="row mt-5 px-4 g-4 text-center">
+            <div class="col-12 col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3 d-flex flex-column">
+                    <div class="card-body flex-grow-1">
+                        <h4 class="text-success">Control de Entradas</h4>
+                        <p class="small">Registra automáticamente cada ingreso de mercancía mediante escaneo de códigos QR y sincronización en la nube.</p>
+                    </div>
+                    <button id="btn-micro-1" class="btn btn-outline-success mt-auto">Ir a Entradas</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3 d-flex flex-column">
+                    <div class="card-body flex-grow-1">
+                        <h4 class="text-success">Gestión de Proveedores</h4>
+                        <p class="small">Mantén un historial detallado de tus proveedores, tiempos de entrega y comparativas de costos por temporada.</p>
+                    </div>
+                    <button id="btn-micro-2" class="btn btn-outline-success mt-auto">Ir a Proveedores</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3 d-flex flex-column">
+                    <div class="card-body flex-grow-1">
+                        <h4 class="text-success">Análisis Predictivo</h4>
+                        <p class="small">Algoritmos que predicen cuándo necesitarás reabastecer basándose en las tendencias de venta históricas.</p>
+                    </div>
+                    <button id="btn-micro-3" class="btn btn-outline-success mt-auto">Ir a Análisis</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="row mt-5 g-0 text-white p-4">
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h5>Contacto</h5>
+                <p class="mb-0">📍 Av. Tecnológica #123, Colombia</p>
+                <p>📧 soporte@sinergiainventory.com</p>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <h5>Redes Sociales</h5>
+                <p class="mb-0">Linkedln | Twitter | Instagram</p>
+                <p class="mt-2 small opacity-75">© 2026 Sinergia Inventory. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
